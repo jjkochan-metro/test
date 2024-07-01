@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "test" >> /var/log/test.log
-echo "McSquizzy: The Mighty Squirrel" >> /home/SchnippyMcSnapperson/test_folder/test.log
+echo "$date McSquizzy: The Mighty Squirrel" >> /home/SchnippyMcSnapperson/test_folder/test.log
 
 sleep 10
 
